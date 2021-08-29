@@ -42,7 +42,7 @@ Another dimension to explore can be trying out different algorithms for performi
 
 Find out how we can use the collaborative filtering, i.e. the user is recommended items that people with similar tastes and preferences liked in the past. In other words, how we can predict unknown ratings by using the similarities between users.
 
-# Approach
+## Approach
 
 The same UCI Machine Learning Repository on online retail transactions was used to develop recommendation system algorithms, with the Surprise library. 
 
@@ -51,6 +51,13 @@ Surprise package has been specially developed to make recommendation based on co
 Surprise requires the data frame to  have three columns, corresponding to the user ids, the item ids, and the ratings in this order. Each row thus corresponds to a given rating.
 
 The transaction dataset did  not have any ratings and had to be built based on the number of times an item was ordered by a user.
+
+## Conclusion
+
+Surprise makes it easy to implement neighborhood and Similarity based recommendation algorithms. There are more sophisticated algorithms based on deep learning that can be used.
+
+Apart from KNN based there are also other types of algorithms like matrix factorization based algorithms that are supported by surprise package for collaborative filtering.
+
 
 
 
