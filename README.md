@@ -1,4 +1,4 @@
-## Customer segmentation and recommendation system using the Online Retail dataset
+# Customer segmentation
 
 Customer Segmentation is the strategy that is used to find discrete customer groups that share similar characteristics. The idea behind customer segmentation is to split the user-base into smaller groups that can be targeted with specialized content and offers.
 The purpose of the project is to understand:
@@ -27,6 +27,33 @@ The following techniques were used to identify the optimal number of clusters.
 * Silhouette Coefficient
 
 The best value for number of clusters from these methods was 3.
+
+
+## Conclusion
+
+Discovery and the quality of clustering can be improved by adding other customer information and purchase details in this dataset.
+For example:
+* New indicators, such as customer relationship time, based on the date of first purchase of the client.
+* Some group or category of product to be obtained through the SKUs.
+
+Another dimension to explore can be trying out different algorithms for performing the segmentation for instance hierarchical clustering.
+
+# Recommendation System
+
+Find out how we can use the collaborative filtering, i.e. the user is recommended items that people with similar tastes and preferences liked in the past. In other words, how we can predict unknown ratings by using the similarities between users.
+
+# Approach
+
+The same UCI Machine Learning Repository on online retail transactions was used to develop recommendation system algorithms, with the Surprise library. 
+
+Surprise package has been specially developed to make recommendation based on collaborative filtering easy and has default implementation for a variety of CF algorithms.
+
+Surprise requires the data frame to  have three columns, corresponding to the user ids, the item ids, and the ratings in this order. Each row thus corresponds to a given rating.
+
+The transaction dataset did  not have any ratings and had to be built based on the number of times an item was ordered by a user.
+
+
+
 
 
 
