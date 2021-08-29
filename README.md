@@ -58,6 +58,21 @@ Surprise makes it easy to implement neighborhood and Similarity based recommenda
 
 Apart from KNN based there are also other types of algorithms like matrix factorization based algorithms that are supported by surprise package for collaborative filtering.
 
+# Market Basket Analysis
+
+Market basket analysis is a set of calculations meant to help businesses understand the underlying patterns in their sales. 
+The sales of certain goods are complementary, they are often bought together and Apriori Algorithm can uncover them. 
+
+
+## Approach
+
+Used Apriori an association Rule-based algorithm and generated:
+
+Frequent Itemset Generation: All frequent itemsets with support >= predetermined min_support count.
+
+Rule Generation: Listed all Association Rules from frequent itemsets. Calculated support and Confidence for all rules. Pruned the rules that fail min_support and min_confidence thresholds.
+
+
 
 
 
