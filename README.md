@@ -1,4 +1,4 @@
-<https://github.com/balaji-2021/Capstone3/blob/main/images/Screen%20Shot%202021-08-24%20at%207.00.36%20PM.png>
+<img width="760" alt="Screen Shot 2021-06-06 at 5 58 09 PM" src=https://github.com/balaji-2021/Capstone3/blob/main/images/Screen%20Shot%202021-08-24%20at%207.00.36%20PM.png>
 
 # Customer segmentation
 
