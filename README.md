@@ -13,5 +13,21 @@ The data used is a public dataset from the UCI Machine Learning Repository on tr
 
 The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
+## Approach
+
+In the context of customer segmentation, cluster analysis is the use of a mathematical model to discover groups of similar customers based on finding the smallest variations among customers within each group.
+
+k-means cluster analysis is a common cluster analysis method used in customer segmentation.
+
+Since the dataset is limited to the sales records, and does not include any other information about our customers, I used a RFM,*Recency, Frequency and Monetary Value, based model of customer value for finding customer segments.
+
+The following techniques were used to identify the optimal number of clusters.
+* Elbow method
+* Gap Statistic
+* Silhouette Coefficient
+
+The best value for number of clusters from these methods was 3.
+
+
 
 
